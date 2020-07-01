@@ -20,16 +20,16 @@ CONVENTIONAL_PRODUCE = [
   # This matrix will represent a produce storage room
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
-  def assembled_matrix
-    produce_storage_room = [
-      conventional_produce[],
-      organic_produce[]
-    ]
-    produce_storage_room
-  end
+  # def assembled_matrix
+  #   produce_storage_room = [
+  #     conventional_produce[],
+  #     organic_produce[]
+  #   ]
+  #   produce_storage_room
+  # end
 
   def assembled_matrix
-    produce_storage_room = [conventional_produce,organic_produce]
+    produce_storage_room = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
     produce_storage_room
   end
 
