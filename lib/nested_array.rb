@@ -29,7 +29,7 @@ CONVENTIONAL_PRODUCE = [
     produce_storage_room[conventional_produce, organic_produce]
   end
 
-  
+
 
 def sorted_matrix
   # Using Array literal syntax only, build another nested array that
