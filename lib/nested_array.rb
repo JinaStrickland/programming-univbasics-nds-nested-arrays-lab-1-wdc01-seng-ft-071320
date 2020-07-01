@@ -37,7 +37,7 @@ CONVENTIONAL_PRODUCE = [
         conventional_produce = ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
         organic_produce = ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
       ]
-binding.pry
+
 
   def assembled_matrix
     [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
